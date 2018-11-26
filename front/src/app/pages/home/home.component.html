@@ -1,0 +1,7 @@
+<div class="main__container">
+
+  <app-weather-card *ngIf='number_of_cities!="0"'></app-weather-card>
+  <app-weather-card *ngIf='number_of_cities!="0" && number_of_cities!="1"'></app-weather-card>
+  <app-add-card *ngIf='number_of_cities!="2"'></app-add-card>
+
+</div>
